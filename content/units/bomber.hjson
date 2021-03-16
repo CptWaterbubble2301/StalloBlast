@@ -1,0 +1,74 @@
+type: flying
+name: Hammerhead
+description: A heavily armoured bombercraft, armed with an anti-unit blaster machinegun.
+speed: 2
+flying: true
+health: 1000
+armor: 5
+engineOffset: 5.5
+range: 220
+rotateSpeed: 10
+baseRotateSpeed: 0.5
+rotateShooting: false
+faceTarget: true
+circleTarget: true
+hover: false
+research: {
+    parent: recon-2
+    requirements:
+    [
+        {item: crimsonite, amount: 200},
+        {item: blastic, amount: 500},
+        {item: silicon, amount: 400}
+    ]
+}
+hitSize: 8
+hitSizeTile: 6
+weapons:[
+{
+  name: bomberdrop
+  shootCone: 180
+  length: 1
+  reload: 10
+  recoil: 0
+  x:0
+  rotate: false
+  mirror: false
+  minShootVelocity: 1
+  ignoreRotation: true
+  bullet:{
+    shootEffect: none
+    type: BombBulletType
+    keepVelocity: false
+    damage: 15
+    frontColor: ffffff
+    backColor: ffaaaa
+    bulletWidth: 12
+    bulletHeight: 15
+    splashDamageRadius: 40
+    splashDamage: 120
+    lifetime: 50
+}
+}
+{
+  name: bombergun
+  length: 1.5
+  reload: 2
+  mirror: false
+  rotate: true
+  x: 0
+  y: -11
+  bullet: {
+    type: basicBulletType
+    frontColor: ff9999
+    backColor: ff0000
+    speed: 30
+    damage: 8
+    lifetime: 10
+    width:5
+    height:10
+    hitEffect: none
+    despawnEffect: none
+    }
+}
+]

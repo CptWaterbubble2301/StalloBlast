@@ -1,0 +1,15 @@
+name: Astryl
+description: Fluidized Phase fabric
+temperature: 0.2
+viscosity: 0.5
+flammability: 0.1
+explosiveness: 0.9
+color: fdeb88
+effect: {
+name: Overclocked
+armorMultiplier: 0.1
+speedMultiplier: 3
+color: ff0000
+damage: 0.05
+effect: lancerLaserCharge
+}

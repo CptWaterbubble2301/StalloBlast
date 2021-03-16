@@ -1,0 +1,28 @@
+type: PowerTurret
+name: Power Blaster
+description: Rapidfire Lihtning turret.
+health: 400
+size: 2
+reloadTime: 5
+shots: 3
+range: 200
+inaccuracy: 0
+rotatespeed: 12
+heatColor: ff0000
+powerUse: 5
+chargeBeginEffect: hitLancer
+shootSound: sap
+shootType: {
+	type: lightningBulletType
+	damage: 15
+	collidesAir: true
+	lightningLength: 30
+}
+requirements: [
+  crimsonite/40
+  blastic/20
+  titanium/70	
+  silicon/40
+]
+category: turret
+research: blaster

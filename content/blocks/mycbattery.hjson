@@ -1,0 +1,20 @@
+type: Battery
+name: Mycroionic battery
+description: A very dense battery
+size: 2
+hasPower: true
+consumesPower: true
+outputPower: true
+idleSound: respawning
+idleSoundVolume: 0.5
+emptyLightColor: 15c5ea
+fullLightColor: ddf9ff
+category: power
+research: mycnode
+consumes:{powerBuffered:100000}
+requirements: [
+  mycrocluster/30
+  clc/40
+  silicon/50
+  archaium-crystal/5
+]

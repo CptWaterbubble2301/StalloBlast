@@ -1,0 +1,31 @@
+type: ImpactReactor
+name: Astron Thoractor
+description: Uses astrolyte to internally recycle and recharge thorium, while extracting the energy from both. The only safe way to dispose of astrolyte, takes a long time to charge.
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemDuration: 15
+powerProduction: 25
+plasmas: 4
+plasma1: 9112a1
+plasma2: 9112a1
+plasma3: 9112a1
+plasma4: 9112a1
+consumes: {
+  power: 20
+   liquid: {
+      liquid: astrolyte
+      amount: 1
+}
+}
+requirements: [
+  titanium/100
+  clc/120
+  silicon/60
+  stalloblast/60
+  astron/150
+  thorium/30
+]
+category: power
+research: astron-restabilizer

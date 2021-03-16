@@ -1,0 +1,43 @@
+type: flying
+name: Diverter
+description: Incredibly weak on their own. Made to distract defenses from other units.
+speed: 7
+flying: true
+health: 30
+engineOffset: 0
+range: 70
+rotateSpeed: 4
+baseRotateSpeed: 1
+attackLength: 200
+shootCone: 25
+circleTarget: false
+weapons: [{
+  name: divertergun
+  length: 1.5
+  reload: 2
+  alternate: true
+  x: 1
+  bullet: 
+{
+    shootEffect: none
+    smokeEffect: none
+    despawnEffect: none
+    hitEffect: none
+    speed: 10
+    damage: 1
+    lifetime: 20
+    frontColor: e200ff
+    backColor: f290ff
+    bulletWidth: 2
+    bulletHeight: 4
+}
+}
+]
+research: {
+    parent: diverterfactory
+    requirements:
+    [
+        {item: astron, amount: 200},
+        {item: silicon, amount: 1000}
+    ]
+}

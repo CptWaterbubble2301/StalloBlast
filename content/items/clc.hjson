@@ -1,0 +1,5 @@
+type: material
+name: Copper-Lead-Ceramic
+description: A wafer of a metal-ceramic substance. Useful as ammo for certain weapons, and for walls.
+cost: 1
+color: 7dd4c4

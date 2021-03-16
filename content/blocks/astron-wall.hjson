@@ -1,0 +1,13 @@
+name: Astron Wall
+description: A wall made of Astron. Has a chance to give off lightning when hit.
+type: Wall
+health: 2500
+size: 1
+lightningChance: 0.2
+lightningDamage: 100
+lightningLength: 7
+requirements: [
+  astron/6
+]
+category: defense
+research: astron-restabilizer

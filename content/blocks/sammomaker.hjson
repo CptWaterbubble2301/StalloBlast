@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Pneumatic Shell compactor
+description: Fabricates crap into Pneumatic ammo using compressed air.
+size: 3
+hasItems: true
+hasPower: false
+hasLiquids: true
+craftTime: 40
+consumes: {
+  items: {
+    items: [
+      RefinedScrap/6
+    ]
+  }
+  liquid: {
+    liquid: air
+    amount: 0.2
+  }
+}
+requirements: [
+  RefinedScrap/30
+  lead/50
+  copper/140
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: sbullet/3
+research: compressorbig
+flameColor: ff0000

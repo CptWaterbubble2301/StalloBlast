@@ -1,0 +1,5 @@
+type: material
+name: Refined Scrap
+description: A hunk of slightly more usable scrap.
+cost: 0.1
+color: cb9367

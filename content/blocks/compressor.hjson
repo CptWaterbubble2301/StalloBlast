@@ -1,0 +1,15 @@
+name: Scrap Compressor
+description: A compressor made from scrap parts that creates compressed air over time. Used for other scrap machines.
+type: SolidPump
+size: 2
+baseEfficiency: 0.1
+rotateSpeed: 10
+hasPower: false
+requirements: [
+  RefinedScrap/40
+  copper/20
+  lead/15
+]
+result: air
+category: production
+research: ssorter

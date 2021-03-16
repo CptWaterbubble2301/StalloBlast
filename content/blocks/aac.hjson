@@ -1,0 +1,33 @@
+type: PowerTurret
+name: Archaic Accelerator Cannon
+description: Fires a stream of superheated plasma.
+health: 800
+size: 3
+reloadTime: 0
+range: 300
+inaccuracy: 0
+rotatespeed: 12
+heatColor: f4f0dc
+powerUse: 20
+chargeBeginEffect: hitLancer
+shootSound: sap
+shootType: {
+	type: laserBulletType
+	continuous: true
+	colors: ["fff242","fff576","fdf69c","fffabc"]
+	damage: 20
+	length: 300
+	width: 15
+	sideAngle: 135
+	sideLength: 30
+	sideWidth: 1
+	lifetime: 2
+}
+requirements: [
+  clc/40
+  copper/60
+  titanium/70
+  archaium-crystal/20
+]
+category: turret
+research: archaostructor

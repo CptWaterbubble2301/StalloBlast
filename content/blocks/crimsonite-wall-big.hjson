@@ -1,0 +1,10 @@
+name: Large Crimsonite Wall
+description: A large wall made of Crimsonite. Nothing special.
+type: Wall
+health: 2400
+size: 2
+requirements: [
+  crimsonite/24
+]
+category: defense
+research: crimsonite-wall

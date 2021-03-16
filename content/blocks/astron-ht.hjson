@@ -1,0 +1,39 @@
+type: ImpactReactor
+name: Astron Hydrothermal Fusor
+description: This advanced reactor uses phase fabric to very efficiently split large amounts of water to use as fusion fuel.
+size: 5
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemDuration: 120
+powerProduction: 320
+liquidCapacity: 50
+warmupSpeed: 0.005
+plasmas: 4
+plasma1: e200ff
+plasma2: e200ff
+plasma3: e200ff
+plasma4: e200ff
+explosionRadius: 250
+consumes: {
+  power: 10
+  items: {
+    items: [
+      phase-fabric/1
+    ]
+  }
+   liquid: {
+      liquid: water
+      amount: 5
+}
+}
+requirements: [
+  titanium/100
+  lead/80
+  metaglass/40
+  clc/80
+  silicon/120
+  astron/150
+]
+category: power
+research: astron-thoractor

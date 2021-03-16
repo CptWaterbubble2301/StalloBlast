@@ -1,0 +1,16 @@
+name: Large Scrap Compressor
+description: A compressor made from scrap parts that creates compressed air over time. Faster than it's smaller counterpart.
+type: SolidPump
+size: 3
+baseEfficiency: 0.3
+rotateSpeed: 15
+hasPower: false
+liquidCapacity: 30
+requirements: [
+  RefinedScrap/75
+  copper/60
+  lead/40
+]
+result: air
+category: production
+research: compressor

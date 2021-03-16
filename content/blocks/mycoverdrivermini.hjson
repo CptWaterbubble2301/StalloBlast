@@ -1,0 +1,24 @@
+type: OverdriveProjector
+name: Nanodriver
+description: A tiny, upgraded overdrive projector. Cannot be boosted.
+health: 200
+size: 1
+color: ff3800
+range: 50
+speedBoost: 1.2
+useTime: 400
+speedBoostPhase: 0
+phaseRangeBoost: 0
+phaseColor: feb380ff
+consumes: {
+  power: 2
+}
+requirements: [
+  mycrocluster/5
+  titanium/10
+  clc/5
+  silicon/5
+  archaium-crystal/5
+]
+category: effect
+research: mycoverdriver

@@ -1,0 +1,10 @@
+name: Crimsonite Wall
+description: A wall made of Crimsonite. Nothing special.
+type: Wall
+health: 600
+size: 1
+requirements: [
+  crimsonite/6
+]
+category: defense
+research: crimsonite-forge

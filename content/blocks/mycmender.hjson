@@ -1,0 +1,29 @@
+type: MendProjector
+name: Mycrollic Reconstructor
+description: A stronger mend projector.
+health: 800
+size: 2
+color: 1bff00
+range: 100
+healPercent: 0.1
+phaseBoost: 0.4
+reload: 1
+phaseRangeBoost: 80
+consumes: {
+  power: 8
+  items: {
+    items: [
+      phase-fabric/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  mycrocluster/15
+  titanium/40
+  clc/40
+  silicon/30
+  archaium-crystal/10
+]
+category: effect
+research: mycshield

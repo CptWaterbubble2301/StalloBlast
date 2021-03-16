@@ -1,0 +1,46 @@
+type: legs
+name: Armadillo
+description: A heavy ground unit with a lot of health, and a dual mini-blasters.
+hitSize: 12
+hitSizeTile:8
+speed: 0.4
+health: 1200
+attackLength: 0
+range: 200
+attackLength: 300
+rotatespeed: 0.2
+baseRotateSpeed: 0.05
+shootCone: 5
+rotateWeapon: false
+legGroupSize: 4
+legCount: 6
+allowLegStep: true
+hovering: true
+research: {
+    parent: recon-2
+    requirements:
+    [
+        {item: crimsonite, amount: 200},
+        {item: blastic, amount: 500},
+        {item: silicon, amount: 400}
+    ]
+}
+weapons: [
+{
+  name: armadillogun
+  length: 1.5
+  reload: 2
+  alternate: true
+  bullet: {
+    type: basicBulletType
+    frontColor: ff9999
+    backColor: ff0000
+    speed: 25
+    damage:10
+    lifetime: 10
+    pierce: true
+    width:4
+    height:16
+    }
+}
+]

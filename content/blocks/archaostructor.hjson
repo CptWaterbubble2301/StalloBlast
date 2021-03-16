@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Archaostructor
+description: Re-phases Metaglass into Archaium Crystals
+liquidCapacity: 50
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      metaglass/2
+    ]
+  }
+  liquid: {
+    liquid: astryl
+    amount: 1
+  }
+}
+requirements: [
+  lead/50
+  thorium/80
+  silicon/60
+  blastic/50
+  phase-fabric/10
+]
+category: crafting
+research: astryl-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: archaium-crystal/1

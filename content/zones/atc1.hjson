@@ -1,0 +1,25 @@
+name: Farland Fortress
+description: An outlying fortress that has stood untouched for a long time. That's about to change...
+loadout: basicNucleus
+startingItems: [
+  copper/500
+  lead/500
+  metaglass/200
+]
+conditionWave: 10
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: wulfrum-fields
+    wave: 100
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  titanium
+  thorium
+  sand
+]

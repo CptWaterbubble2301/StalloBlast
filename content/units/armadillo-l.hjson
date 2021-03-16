@@ -1,0 +1,78 @@
+type: legs
+name: Ankylosaur
+description: A heavy ground unit with a lot of health, and an experimental short range plasma projector cannon.
+hitSize: 12
+hitSizeTile:8
+speed: 0.4
+health: 1200
+attackLength: 0
+range: 200
+attackLength: 600
+rotateSpeed: 0.5
+baseRotateSpeed: 0.5
+shootCone: 0
+rotateWeapon: false
+legGroupSize: 14
+legCount: 8
+legLength: 20
+allowLegStep: true
+hovering: true
+rotateShooting: false
+targetAir: true
+research: {
+    parent: recon-3
+    requirements:
+    [
+        {item: clc, amount: 1000},
+        {item: archaium-crystal, amount: 300},
+        {item: silicon, amount: 1300}
+    ]
+}
+weapons: [{
+  name: armadillogun-l
+  length: 1.5
+  reload: 1
+  mirror: false
+  rotate: true
+  shootSound: sap
+  x: 0
+  shake: 0
+  shootY: 8
+    ejectEffect: none
+recoil: 0
+  bullet: {
+	type: laserBulletType
+	continuous: true
+	colors: ["fff242","fff576","fdf69c","fffabc"]
+	damage: 30
+	length: 60
+	width: 15
+	sideAngle: 160
+	sideLength: 10
+	sideWidth: 0.5
+	lifetime: 4
+}}
+{
+  name: cgun
+  length: 0
+  reload: 20
+  rotate: true
+  shootSound: sap
+inacurracy:0
+  x: 6.3
+  y: -14
+  shake: 0
+  shootY: 0
+    ejectEffect: none
+recoil: 0
+  bullet: {
+	frontColor: fff242
+	backColor: fffabc
+	damage: 60
+	bulletHeight: 3
+	bulletWidth: 8
+	lifetime: 20
+	speed: 25
+}}
+
+]

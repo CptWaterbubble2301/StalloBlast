@@ -1,0 +1,49 @@
+type: legs
+name: Turtle
+description: A small, but tanky walker unit.
+hitsize: 2
+hitsizeTile: 2
+speed: 0.6
+health: 600
+attackLength: 0
+range: 120
+attackLength: 300
+rotatespeed: 0.2
+baseRotateSpeed: 0.05
+shootCone: 5
+rotateWeapon: false
+rotateShooting: false
+legGroupSize: 3
+legCount: 4
+legLengthScl: 0.7
+legLength: 4
+LegMoveSpace: 4
+allowLegStep: true
+hovering: false
+commandLimit: 16
+research: {
+    parent: recon-1
+    requirements:
+    [
+        {item: clc, amount: 600},
+        {item: silicon, amount: 500}
+    ]
+}
+weapons: [
+{
+  name: leggygun
+  length: 1.5
+  reload: 4
+  mirror: false
+  rotate: true
+  x: 0
+  bullet: {
+    type: basicBulletType
+    speed: 10
+    damage:7
+    lifetime: 10
+    Width:4
+    Height:16
+    }
+}
+]

@@ -1,0 +1,12 @@
+type: StackConveyor
+name: Mycrollite Stack Conveyor
+description: A fast stack conveyor.
+health: 160
+requirements: [
+  titanium/3
+  clc/3
+  mycrocluster/2
+]
+category: distribution
+speed: 0.15
+research: mycforge

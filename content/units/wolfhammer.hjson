@@ -1,0 +1,34 @@
+type: flying
+name: Wolfhammer
+description: Tough, large drones armed with two single-barrel undreside HMTs
+speed: 0.2
+flying: true
+health: 200
+attackLength: 0
+engineOffset: 5.9
+engineSize: 1.7
+range: 300
+attackLength: 250
+rotatespeed: 0.1
+baseRotateSpeed: 0.1
+shootCone: 5
+weaponOffsetY: -5
+weaponOffsetX: -5
+rotateWeapon: false
+weapon: {
+  name: wolfhammergun
+  length: 1.5
+  reload: 20
+  alternate: true
+  bullet: {
+	"type": "MissileBulletType"
+	frontColor: d86d19
+	backColor: 3c3935
+	bulletWidth:5
+	bulletHeight:7
+	speed: 30
+	damage: 100
+	lifetime: 17
+	pierce: true
+	}
+}

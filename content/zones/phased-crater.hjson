@@ -1,0 +1,30 @@
+name: Phased Crater
+description: The ancient impact crater of an asteroid, that has gotten distorted by strange forces.
+loadout: basicNucleus
+startingItems: [
+  copper/500
+  lead/500
+  metaglass/200
+]
+conditionWave: 10
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: wulfrum-fields
+    wave: 40
+  }
+  {
+    type: Unlock
+    block: astrollic-restabilizer
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  titanium
+  thorium
+  sand
+  tungsten
+]

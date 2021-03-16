@@ -1,0 +1,15 @@
+name: Astrolyte
+description: An astron processing waste product with very unusal spatial properties. Extremely corrosive and volatile. WARNING: WILL RAPIDLY DESTROY CONTAINMENT IF PRESSURIZED!
+temperature: 1
+viscosity: 0
+flammability: 1
+explosiveness: 1
+color: 120913
+effect: {
+name: Atomizing
+armorMultiplier: 0.1
+speedMultiplier: 1.1
+color: ff0000
+damage: 5
+effect: steam
+}

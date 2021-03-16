@@ -1,0 +1,36 @@
+type: ImpactReactor
+name: Archaic Overcharge Reactor
+description: Uses astryl to extract power from thorium very rapidly.
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemDuration: 30
+powerProduction: 60
+plasmas: 4
+plasma1: 8fddbb
+plasma2: fffabc
+plasma3: fff242
+plasma4: 8fddbb
+consumes: {
+  power: 3
+  items: {
+    items: [
+      thorium/1
+    ]
+  }
+   liquid: {
+      liquid: astryl
+      amount: 1
+}
+}
+requirements: [
+  copper/100
+  lead/50
+  metaglass/20
+  clc/40
+  silicon/60
+  archaium-crystal/50
+]
+category: power
+research: archaostructor

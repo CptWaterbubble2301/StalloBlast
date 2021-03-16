@@ -1,0 +1,6 @@
+type: material
+name: Tungsten Carbide
+description: Very hard metallic substance.
+hardness: 4
+cost: 4
+color: d86d19

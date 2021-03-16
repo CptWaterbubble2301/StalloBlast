@@ -1,0 +1,40 @@
+type: flying
+name: Armored Swarmer
+description: Slightly tougher and stronger than it's scrappy counterpart, but a bit slower.
+speed: 3.5
+flying: true
+health: 300
+engineOffset: 5.5
+range: 220
+rotateSpeed: 60
+baseRotateSpeed: 0.5
+attackLength: 300
+shootCone: 25
+commandLimit: 6
+circleTarget: true
+hover: false
+research: {
+    parent: recon-1
+    requirements:
+    [
+        {item: clc, amount: 600},
+        {item: silicon, amount: 500}
+    ]
+}
+weapons:[
+{
+  name: swarmergun
+  length: 1.5
+  reload: 10
+  alternate: true
+x:1
+  bullet: {
+    speed: 7
+    damage: 15
+    frontColor: 7dd4c4
+    backColor: 5abfc9
+    bulletWidth: 5
+    bulletHeight: 11
+}
+}
+]

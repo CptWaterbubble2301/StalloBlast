@@ -1,0 +1,39 @@
+type: flying
+name: Swarmer
+description: Not that strong, but there'll be many of them.
+speed: 5
+flying: true
+health: 200
+engineOffset: 5.5
+rotateSpeed: 60
+baseRotateSpeed: 0.5
+attackLength: 300
+shootCone: 25
+commandLimit: 16
+circleTarget: true
+hover: false
+research: {
+    parent: armadillofactory
+    requirements:
+    [
+        {item: RefinedScrap, amount: 200},
+        {item: silicon, amount: 200}
+    ]
+}
+weapons: [
+{
+  name: swpregun
+  length: 1.5
+  reload: 6
+  alternate: true
+x:1
+  bullet: {
+    speed: 7
+    damage: 5
+    frontColor: f6b482
+    backColor: ad866a
+    bulletWidth: 5
+    bulletHeight: 11
+}
+}
+]

@@ -1,0 +1,47 @@
+type: legs
+name: Beetle
+description: A small, but tanky walker unit.
+hitsize: 2
+hitsizeTile: 2
+speed: 1
+health: 120
+attackLength: 0
+range: 120
+attackLength: 300
+rotatespeed: 0.2
+baseRotateSpeed: 0.05
+shootCone: 5
+rotateWeapon: false
+rotateShooting: true
+legGroupSize: 3
+legCount: 4
+legLength: 4
+allowLegStep: true
+hovering: false
+mechStepParticles: false
+commandLimit: 16
+research: {
+    parent: armadillofactory
+    requirements:
+    [
+        {item: RefinedScrap, amount: 200},
+        {item: silicon, amount: 200}
+    ]
+}
+weapons: [
+{
+  name: sleggygun
+  length: 1.5
+  reload: 10
+  mirror: false
+  x: 0
+  bullet: {
+    type: basicBulletType
+    speed: 10
+    damage: 10
+    lifetime: 10
+    Width:4
+    Height:16
+    }
+}
+]

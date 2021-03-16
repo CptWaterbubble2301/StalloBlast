@@ -1,0 +1,10 @@
+name: Large Stalloblast Wall
+description: A large wall made of Stalloblast wafers. Not very interesting, but damn tough.
+type: Wall
+health: 4800
+size: 2
+requirements: [
+  stalloblast/32
+]
+category: defense
+research: stalloblast-wall

@@ -1,0 +1,124 @@
+type: flying
+name: Excalibur
+description: A massively armoured aircraft. Armed to the teeth with experimental energy weapons.
+speed: 1
+flying: true
+health: 10000
+armor: 15
+engineOffset: 5.5
+range: 220
+rotateSpeed: 1
+baseRotateSpeed: 0.3
+rotateShooting: false
+faceTarget: true
+research: {
+    parent: recon-3
+    requirements:
+    [
+        {item: clc, amount: 1000},
+        {item: archaium-crystal, amount: 300},
+        {item: silicon, amount: 1300}
+    ]
+}
+visualElevation: 100
+hitSize: 14
+hitSizeTile: 12
+weapons:[
+{
+  name: ffortressgun
+  shootCone: 180
+  length: 1
+  reload: 180
+  x:0
+  y: 4
+  rotate: true
+  mirror: false
+  ignoreRotation: true
+  bullet:{
+    shootEffect: none
+    type: ArtilleryBulletType
+    speed: 20
+    damage: 500
+    frontColor: fffabc
+    backColor: fff242
+    width: 20
+    height: 24
+    splashDamageRadius: 70
+    splashDamage: 250
+    lifetime: 20
+    hitEffect: nuclearShockwave
+visualElevation: 110
+}
+}
+{
+  name: wolfhammergun
+  length: 1.5
+  reload: 1
+  mirror: false
+  rotate: true
+  shootSound: sap
+  x: 0
+  y: 0
+  shake: 0
+  shootY: 8
+    ejectEffect: none
+recoil: 0
+  bullet: {
+	type: laserBulletType
+	continuous: true
+	colors: ["fff242","fff576","fdf69c","fffabc"]
+	damage: 30
+	length: 250
+	width: 5
+	sideAngle: 160
+	sideLength: 10
+	sideWidth: 0.5
+	lifetime: 4
+}}
+{
+  name: cgunm
+  length: 0
+  reload: 20
+  rotate: true
+  shootSound: sap
+inacurracy:0
+  x: 10
+  y: 7
+  shake: 0
+  shootY: 0
+    ejectEffect: none
+recoil: 0
+  bullet: {
+	frontColor: fff242
+	backColor: fffabc
+	damage: 60
+	bulletHeight: 3
+	bulletWidth: 8
+	lifetime: 20
+	speed: 25
+visualElevation: 110
+}}
+{
+  name: cgunm
+  length: 0
+  reload: 20
+  rotate: true
+  shootSound: sap
+inacurracy:0
+  x: 14.5
+  y: -14
+  shake: 0
+  shootY: 0
+    ejectEffect: none
+recoil: 0
+  bullet: {
+	frontColor: fff242
+	backColor: fffabc
+	damage: 60
+	bulletHeight: 3
+	bulletWidth: 8
+	lifetime: 20
+	speed: 25
+visualElevation: 110
+}}
+]

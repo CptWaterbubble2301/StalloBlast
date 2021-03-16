@@ -1,0 +1,13 @@
+name: Large Astron Wall
+description: A large wall made of Astron. Has a chance to give off lightning when hit.
+type: Wall
+health: 10000
+size: 2
+lightningChance: 0.25
+lightningDamage: 150
+lightningLength: 10
+requirements: [
+  astron/24
+]
+category: defense
+research: astron-wall

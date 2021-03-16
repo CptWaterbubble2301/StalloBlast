@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: Mycrollic Archaophaser
+description: Manufactures sand and phase fabric into Archaium, under the use of nanites.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+consumes: {
+  power: 1
+  items: {
+    items: [
+      phase-fabric/1
+      sand/5
+    ]
+  }
+  liquid: {
+    liquid: nanites
+    amount: 0.2
+  }
+}
+requirements: [
+  mycrocluster/25
+  clc/60
+  graphite/10
+  silicon/30
+  archaium-crystal/10
+]
+category: crafting
+research: mycgraphite
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: archaium-crystal/1

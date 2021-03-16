@@ -1,0 +1,10 @@
+name: Scrap Wall
+description: A cheap wall made of assorted scrap.
+type: Wall
+health: 300
+size: 1
+requirements: [
+  RefinedScrap/4
+]
+category: defense
+research: ssorter

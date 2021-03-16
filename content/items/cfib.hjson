@@ -1,0 +1,5 @@
+type: material
+name: Carbon Fiber
+description: A slab of reinforced carbon fiber.
+cost: 1.5
+color: 0d0c0c

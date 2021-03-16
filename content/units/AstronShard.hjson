@@ -1,0 +1,51 @@
+type: flying
+name: Astron Shard
+description: WIP
+speed: 4
+boostSpeed: 5
+engineColor: "e200ff"
+flying: true
+health: 3000
+mineTier: 15
+buildSpeed: 5
+range: 200
+research: {
+    parent: diverter
+    requirements:
+    [
+        {item: astron, amount: 400},
+        {item: clc, amount: 200},
+        {item: silicon, amount: 1000}
+    ]
+}
+weapons: [
+{
+  name: shardgun
+  length: 1.5
+  reload: 4
+  alternate: true
+  inaccuracy: 5
+  range: 200
+  bullet: {
+    shootEffect: none
+    smokeEffect: none
+    despawnEffect: none
+    hitEffect: none
+	frontColor: e200ff
+	backColor: f290ff
+	damage: 25
+	bulletHeight: 4
+	bulletWidth: 12
+	lifetime: 96
+	speed: 15
+	drag: 0.02
+	homingRange: 50
+	homingPower: 8
+	bulletShrink: 0
+	splashDamage: 50
+	splashDamageRadius: 10
+	knockback: 0
+    
+}
+}
+]

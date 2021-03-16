@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Large Scrap Sorter
+description: Extracts the most useful bits of metal from scrap. Pneumatic, more efficient.
+size: 3
+hasItems: true
+hasPower: false
+hasLiquids: true
+craftTime: 50
+consumes: {
+  items: {
+    items: [
+      scrap/5
+    ]
+  }
+  liquid: {
+    liquid: air
+    amount: 0.1
+  }
+}
+requirements: [
+  RefinedScrap/20
+  lead/60
+  copper/120
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: RefinedScrap/3
+research: ssorter
+flameColor: ff0000

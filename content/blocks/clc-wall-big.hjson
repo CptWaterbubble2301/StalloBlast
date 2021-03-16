@@ -1,0 +1,10 @@
+name: Large CLC Wall
+description: A large wall made of CLC wafers.
+type: Wall
+health: 2000
+size: 2
+requirements: [
+  clc/24
+]
+category: defense
+research: clc-wall

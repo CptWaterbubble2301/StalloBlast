@@ -1,0 +1,10 @@
+name: Stalloblast Wall
+description: A wall made of Stalloblast wafers. Not very interesting, but damn tough.
+type: Wall
+health: 1200
+size: 1
+requirements: [
+  stalloblast/8
+]
+category: defense
+research: stalloblast-compactor

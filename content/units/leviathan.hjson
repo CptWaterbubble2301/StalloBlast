@@ -1,0 +1,52 @@
+type: flying
+name: Leviathan
+description: stronk
+speed: 0.8
+flying: true
+health: 2000
+attackLength: 0
+engineOffset: 7.6
+engineSize: 3.7
+engineColor: "e200ff"
+range: 350
+attackLength: 300
+rotatespeed: 0.1
+baseRotateSpeed: 0.1
+shootCone: 5
+rotateWeapon: false
+research: {
+    parent: AstronShard
+    requirements:
+    [
+        {item: astron, amount: 600},
+        {item: crimsonite, amount: 400},
+        {item: silicon, amount: 1500}
+    ]
+}
+weapons: [
+{
+  name: wolfhammergun
+  length: 1.5
+  reload: 130
+  alternate: true
+  bullet: {
+	shootEffect: none
+	smokeEffect: none
+	frontColor: e200ff
+	backColor: f290ff
+	damage: 500
+	height: 8
+	width: 24
+	lifetime: 160
+	speed: 3
+	drag: 0
+	homingRange: 200
+	homingPower: 600
+	pierce: true
+	bulletShrink: 0
+	knockback: 0
+	splashDamage: 150
+	splashDamageRadius: 20
+	}
+}
+]

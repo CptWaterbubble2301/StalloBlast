@@ -1,0 +1,61 @@
+type: ItemTurret
+name: HMG Defender
+description: A gatling turret mainly loaded with CLC, does not target aircraft. Specifically made to also accept nonrefined ammunition, but consumes lots of it.
+health: 1200
+size: 3
+reloadTime: 100
+range: 400
+inaccuracy: 3
+rotatespeed: 12
+heatColor: ff0000
+burstSpacing: 1
+shots: 40
+velocityInaccuracy: 0.2
+targetAir: false
+ammoTypes:{
+clc:
+	{
+    type: BasicBulletType
+    frontColor: 7dd4c4
+    backColor: 5abfc9
+	heigth: 12
+	width: 7
+	inaccuracy: 0
+	speed: 20
+	lifetime: 20
+	damage: 60
+	ammoMultiplier: 15
+	collidesGround: true
+	collides: true
+	fragBullets: 5
+	fragBullet: {
+    frontColor: 7dd4c4
+    backColor: 5abfc9
+	heigth: 6
+	width: 3
+	hitEffect: none
+	speed: 5
+	lifetime: 5
+	damage: 10
+	}
+	}
+copper:
+	{
+    type: basicBulletType
+	lifetime: 20
+	speed: 25
+	heigth: 10
+	width: 6
+	damage: 30
+	ammoMultiplier: 5
+	reloadMultiplier: 1.5
+	inaccuracy: 5
+	}
+}
+requirements: [
+  clc/80
+  copper/100
+  lead/40
+]
+category: turret
+research: cflak

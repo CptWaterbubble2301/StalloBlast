@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: Scrap Sorter
+description: Extracts the most useful bits of metal from scrap.
+size: 2
+hasItems: true
+hasPower: false
+craftTime: 70
+consumes: {
+  items: {
+    items: [
+	scrap/5
+    ]
+  }
+}
+requirements: [
+  lead/20
+  copper/60
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: RefinedScrap/2
+research: mechanical-drill
+flameColor: ff0000

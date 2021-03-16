@@ -1,0 +1,47 @@
+type: flying
+name: Superleviathan
+description: very stronk
+speed: 0.5
+flying: true
+health: 10000
+engineOffset: 10
+engineSize: 3.7
+engineColor: "e200ff"
+range: 350
+attackLength: 300
+rotatespeed: 0.1
+baseRotateSpeed: 0.1
+shootCone: 5
+rotateWeapon: false
+research: {
+    parent: leviathan
+    requirements:
+    [
+        {item: astron, amount: 800},
+        {item: archaium-crystal, amount: 400},
+        {item: silicon, amount: 2000}
+    ]
+}
+weapons:[{
+  name: wolfhammergun
+  length: 1.5
+  reload: 10
+  alternate: true
+  bullet: {
+	shootEffect: none
+	smokeEffect: none
+	frontColor: e200ff
+	backColor: f290ff
+	damage: 200
+	height: 16
+	width: 16
+	lifetime: 160
+	speed: 5
+	drag: 0
+	pierce: true
+	bulletShrink: 0
+	knockback: 0
+	splashDamage: 50
+	splashDamageRadius: 20
+	}
+}]

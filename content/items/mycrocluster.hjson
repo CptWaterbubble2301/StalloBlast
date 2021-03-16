@@ -1,0 +1,5 @@
+type: material
+name: Mycrollite Cluster
+description: A cluster of microscopic crystals, used in machine miniaturization.
+cost: 5
+color: 15c5ea

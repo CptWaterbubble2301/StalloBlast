@@ -1,0 +1,16 @@
+name: Nanites
+description: Nanoscopic robots in a fluid form, capable of modifying substances on the molecular level.
+temperature: 0.5
+viscosity: 0.1
+flammability: 0
+explosiveness: 0
+color: e1e2e3
+heatCapacity: 1
+effect: {
+name: Dissolving
+armorMultiplier: 0.5
+speedMultiplier: 0.5
+color: e1e2e3
+damage: 1
+effect: steam
+}

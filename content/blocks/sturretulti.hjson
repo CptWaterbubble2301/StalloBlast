@@ -1,0 +1,38 @@
+type: ItemTurret
+name: Jetstream
+description: A salvaged jet engine welded onto a turret. Hideously strong knockback.
+maxAmmo: 520
+health: 600
+size: 5
+reloadTime: 0
+range: 200
+inaccuracy: 0
+rotateSpeed: 1.5
+heatColor: f4f0dc
+shootCone: 30
+shootSound: smelter
+ammoTypes:{
+coal:{
+	type: laserBulletType
+	continuous: false
+	colors: ["ff9e31","fff98f","c9f1ff","9dd0ff"]
+	damage: 0.2
+	length: 200
+	width: 25
+	sideAngle: 10
+	sideLength: 40
+	sideWidth: 1
+	lifetime: 2
+	knockback: 1.5
+	ammoMultiplier: 80
+	status: burning
+	hitEffect: none
+	shootEffect: none
+}}
+requirements: [
+  copper/80
+  lead/100
+  RefinedScrap/80
+]
+category: turret
+research: sturretbig

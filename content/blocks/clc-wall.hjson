@@ -1,0 +1,10 @@
+name: CLC Wall
+description: A wall made of CLC wafers.
+type: Wall
+health: 500
+size: 1
+requirements: [
+  clc/6
+]
+category: defense
+research: clc-press

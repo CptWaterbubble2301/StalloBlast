@@ -1,0 +1,36 @@
+type: GenericSmelter
+name: Mycrocluster Forge
+description: A heavily modified archaic rephaser, augmented to produce Mycrollite clusters from cryofluid, phase fabric and metaglass.
+liquidCapacity: 100
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      metaglass/5
+      phase-fabric/1
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 1
+  }
+}
+requirements: [
+  lead/200
+  copper/200
+  thorium/140
+  silicon/200
+  clc/100
+  phase-fabric/50
+  stalloblast/20
+]
+category: crafting
+research: archaic-rephaser
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: mycrocluster/2
