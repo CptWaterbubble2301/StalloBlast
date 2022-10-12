@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Mycrollic Archaophaser
-description: Manufactures sand and phase fabric into Archaium, under the use of nanites.
+name: Mycrollic Asterrophaser
+description: Manufactures sand and phase fabric into Asterrite, under the use of nanites.
 liquidCapacity: 50
 size: 2
 hasPower: true

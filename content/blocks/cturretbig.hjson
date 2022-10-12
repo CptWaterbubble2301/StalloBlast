@@ -12,6 +12,7 @@ burstSpacing: 1
 shots: 40
 velocityInaccuracy: 0.2
 targetAir: false
+spread: 0
 ammoTypes:{
 clc:
 	{

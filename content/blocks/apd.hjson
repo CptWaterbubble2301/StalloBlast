@@ -1,5 +1,5 @@
 type: PointDefenseTurret
-name: Archaic Pinpointer
+name: Asterric Pinpointer
 description: A small point defense gun, more effective than the standard.
 hasPower: true
 powerUse: 2.5

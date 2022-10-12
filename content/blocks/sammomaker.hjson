@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Pneumatic Shell compactor
-description: Fabricates crap into Pneumatic ammo using compressed air.
+description: Fabricates scrap into Pneumatic ammo using compressed air.
 size: 3
 hasItems: true
 hasPower: false

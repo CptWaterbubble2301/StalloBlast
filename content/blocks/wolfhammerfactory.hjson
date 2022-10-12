@@ -1,5 +1,5 @@
 name: Wolfhammer Factory
-description: Makes Wolfhammer units.
+description: Makes Wolfhammer units. Currently not in use.
 type: UnitFactory
 unitType: wolfhammer
 size: 3

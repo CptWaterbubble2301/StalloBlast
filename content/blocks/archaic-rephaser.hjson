@@ -1,5 +1,5 @@
 type: GenericSmelter
-name: Archaic Rephaser
+name: Asterric Rephaser
 description: Uses astryl to allow more efficient construction of phase fabric
 liquidCapacity: 100
 size: 5

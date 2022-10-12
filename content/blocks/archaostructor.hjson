@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Archaostructor
-description: Re-phases Metaglass into Archaium Crystals
+name: Asterrostructor
+description: Re-phases Metaglass into Asterrite Crystals
 liquidCapacity: 50
 size: 3
 hasPower: true

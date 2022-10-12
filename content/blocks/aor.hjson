@@ -1,5 +1,5 @@
 type: ImpactReactor
-name: Archaic Overcharge Reactor
+name: Asterric Overcharge Reactor
 description: Uses astryl to extract power from thorium very rapidly.
 size: 3
 hasPower: true

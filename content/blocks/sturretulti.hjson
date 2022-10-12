@@ -4,7 +4,7 @@ description: A salvaged jet engine welded onto a turret. Hideously strong knockb
 maxAmmo: 520
 health: 600
 size: 5
-reloadTime: 0
+reloadTime: 1
 range: 200
 inaccuracy: 0
 rotateSpeed: 1.5
@@ -14,7 +14,7 @@ shootSound: smelter
 ammoTypes:{
 coal:{
 	type: laserBulletType
-	continuous: false
+	continuous: true
 	colors: ["ff9e31","fff98f","c9f1ff","9dd0ff"]
 	damage: 0.2
 	length: 200

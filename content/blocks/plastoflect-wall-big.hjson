@@ -1,6 +1,6 @@
 type: Wall
 name: Large Plastoflect Wall
-description: A large wall made of Blastic, with Archaic panelling. Can reflect some tougher bullets.
+description: A large wall made of Blastic, with Asterric panelling. Can reflect some tougher bullets.
 health: 2800
 size: 2
 hitTime: 5

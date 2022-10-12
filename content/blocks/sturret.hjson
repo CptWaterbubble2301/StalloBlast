@@ -12,6 +12,7 @@ shots: 10
 inaccuracy: 2
 shootEffect: steam
 smokeEffect: shootSmallSmoke
+spread: 0
 ammoTypes:{
 sbullet:
 	{

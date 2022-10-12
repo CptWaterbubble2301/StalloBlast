@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: Mycrocluster Forge
-description: A heavily modified archaic rephaser, augmented to produce Mycrollite clusters from cryofluid, phase fabric and metaglass.
+description: A heavily modified asterric rephaser, augmented to produce Mycrollite clusters from cryofluid, phase fabric and metaglass.
 liquidCapacity: 100
 size: 5
 hasPower: true

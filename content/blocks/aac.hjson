@@ -1,9 +1,9 @@
 type: PowerTurret
-name: Archaic Accelerator Cannon
+name: Asterric Accelerator Cannon
 description: Fires a stream of superheated plasma.
 health: 800
 size: 3
-reloadTime: 0
+reloadTime: 1
 range: 300
 inaccuracy: 0
 rotatespeed: 12

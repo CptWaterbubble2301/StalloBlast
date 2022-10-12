@@ -1,5 +1,5 @@
 name: Volumetric Reconstructor
-description: Uses Archaium and more clc to upgrade units to tier 4.
+description: Uses Asterrite and more clc to upgrade units to tier 4.
 type: Reconstructor
 size: 7
 constructTime: 1200
