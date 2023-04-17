@@ -1,0 +1,54 @@
+type: AttributeCrafter
+name: Asterric Rephaser
+description: Uses astryl to allow more efficient construction of phase fabric
+liquidCapacity: 100
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 40
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      sand/5
+      thorium/1
+    ]
+  }
+  liquid: {
+    liquid: astryl
+    amount: 1
+  }
+}
+requirements: [
+  lead/200
+  copper/200
+  thorium/120
+  silicon/160
+  blastic/100
+  phase-fabric/25
+]
+drawer: {
+type: DrawMulti
+drawers: [DrawDefault, 
+{
+type: DrawFlame
+flameColor: fff24250
+flameRadius: 6
+flameRadiusIn: 3
+flameRadiusScl: 0
+}
+{
+type: DrawCrucibleFlame
+flameColor: fff242
+midColor: ffffff
+particleRad: 10
+alpha: 1
+}
+]
+}
+category: crafting
+research: astryl-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: phase-fabric/2

@@ -1,0 +1,38 @@
+type: PowerTurret
+name: Astron Nanocharger
+description: Small charged weapon. Strong in numbers.
+health: 400
+size: 1
+reload: 20
+chargeTime: 20
+range: 150
+inaccuracy: 0
+rotatespeed: 12
+firingMoveFract: 0.1
+consumes:
+{ 
+  power:2
+}
+shootSound: pew
+chargeEffect: lancerLaserCharge
+chargeEffects: 1
+recoil: 4
+cooldown: 0.01
+heatColor: e200ff
+shootType: {
+	frontColor: e200ff
+	backColor: f290ff
+	damage: 35
+	height: 5
+	width: 5
+	lifetime: 15
+	speed: 15
+	pierce: true
+}
+requirements: [
+  thorium/20
+  clc/15
+  astron/10
+]
+category: turret
+research: astron-restabilizer

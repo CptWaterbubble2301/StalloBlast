@@ -1,0 +1,50 @@
+type: AttributeCrafter
+name: Astrollic Restabilizer
+description: Reforms astrollic wafers into Astron, and astrolyte as a side product.
+liquidCapacity: 100
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 80
+consumes: {
+  power: 6
+  items: {
+    items: [
+      astrollic-wafer/1
+    ]
+}
+}
+requirements: [
+  titanium/320
+  thorium/140
+  silicon/200
+  blastic/200
+  clc/100
+  stalloblast/30
+]
+category: crafting
+research: astrollic-dephaser
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: astron/1
+outputLiquid: {
+  liquid: astrolyte
+  amount: 5
+}
+drawer: {
+type: DrawMulti
+drawers: [DrawDefault, 
+{
+type: DrawFlame
+flameColor: 000000ff
+flameRadiusScl: 0
+flameRadius: -1
+flameRadiusIn: -0.5
+}
+{
+type: DrawCrucibleFlame,
+flameColor: c920c9
+}
+]
+}

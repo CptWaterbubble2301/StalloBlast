@@ -1,9 +1,10 @@
 type: flying
 name: Wolfhammer
-description: Tough, large drones armed with two single-barrel undreside HMTs
-speed: 0.2
+description: Despite their relatively compact size, this tough drone fits dual AP machineguns that rapidly tear through most foes.
+speed: 2
 flying: true
-health: 200
+health: 10000
+armor: 20
 attackLength: 0
 engineOffset: 5.9
 engineSize: 1.7
@@ -15,20 +16,34 @@ shootCone: 5
 weaponOffsetY: -5
 weaponOffsetX: -5
 rotateWeapon: false
-weapon: {
-  name: wolfhammergun
-  length: 1.5
-  reload: 20
-  alternate: true
-  bullet: {
-	"type": "MissileBulletType"
-	frontColor: d86d19
-	backColor: 3c3935
-	bulletWidth:5
-	bulletHeight:7
-	speed: 30
-	damage: 100
-	lifetime: 17
-	pierce: true
+weapons: [
+	{
+		name: wolfhammergun
+		length: 1.5
+		reload: 2
+		alternate: true
+		x: 4
+		y: 2
+		bullet: {
+		"type": "MissileBulletType"
+		frontColor: d86d19
+		backColor: 3c3935
+		width:4
+		height:10
+		speed: 30
+		damage: 60
+		lifetime: 17
+		pierce: true
+		homingPower: 8
+	  homingRange: 128
+		}
 	}
+]
+research: {
+  parent: wolfhammerfactory
+  requirements: [
+     cfib/10000 ,  
+     silicon/6000 ,  
+     tungstenitecarbide/10000   
+  ]
 }

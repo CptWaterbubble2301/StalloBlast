@@ -1,0 +1,15 @@
+type: Junction
+name: Carbon Fiber Junction
+description: A faster junction.
+health: 160
+hasPower: false
+hasItems: false
+requirements: [
+  cfib/1
+  clc/1
+]
+category: distribution
+research: carb-weave
+range: 7
+speed: 0
+

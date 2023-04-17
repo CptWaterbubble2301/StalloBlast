@@ -1,0 +1,52 @@
+type: AttributeCrafter
+name: Blastic Compressor
+description: Combines Crimsonite and Graphite to produce Blastic.
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 40
+flameColor: ff0000
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      crimsonite/1
+      graphite/2
+    ]
+  }
+}
+requirements: [
+  lead/150
+  copper/300
+  titanium/60
+  silicon/60
+  crimsonite/20
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: blastic/2
+research: crimsonite-forge
+
+drawer: {
+type: DrawMulti
+drawers: [DrawDefault, 
+{
+type: DrawFlame
+flameColor: ff0000ff
+flameRadiusScl: 0
+flameRadius: -1
+flameRadiusIn: -0.5
+}
+{
+type: DrawArcSmelt
+flameColor:ff0000ff
+midColor:ff0000ff
+flameRadiusScl: 0
+flameRad: 4.5
+particleRad: 7
+particleStroke: 0.5
+circleSpace:3.5
+}
+]
+}

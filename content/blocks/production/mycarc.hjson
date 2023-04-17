@@ -1,0 +1,52 @@
+type: GenericCrafter
+name: Mycrollic Asterrophaser
+description: Manufactures sand and phase fabric into Asterrite, under the use of nanites.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+consumes: {
+  power: 1
+  items: {
+    items: [
+      phase-fabric/1
+      sand/5
+    ]
+  }
+  liquid: {
+    liquid: nanites
+    amount: 0.2
+  }
+}
+requirements: [
+  mycrocluster/25
+  clc/60
+  graphite/10
+  silicon/30
+  asterrite-crystal/10
+]
+category: crafting
+research: mycgraphite
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: asterrite-crystal/1
+drawer: {
+type: DrawMulti
+drawers: [DrawDefault, 
+{
+type: DrawFlame
+flameColor: ffffffff
+flameRadiusScl: 0
+flameRadius: -1
+flameRadiusIn: -0.5
+}
+{
+type: DrawPulseShape
+timeScl: 5
+radiusScl: 0.25
+color: ffff00
+}
+]
+}

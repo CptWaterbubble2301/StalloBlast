@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Wulfram Carbylator
+description: Re-forms Wulfram and Graphite into Wulfram Carbide.
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 80
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      tungstenite/1
+      graphite/1
+    ]
+  }
+}
+requirements: [
+  blastic/60
+  titanium/60
+  silicon/60
+  clc/40
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: tungstenitecarbide/2
+research: asterrostructor

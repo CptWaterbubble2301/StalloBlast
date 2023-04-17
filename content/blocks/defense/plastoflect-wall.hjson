@@ -1,0 +1,13 @@
+type: Wall
+name: Plastoflect Wall
+description: A wall made of Blastic, with Asterric panelling. Can reflect some tougher bullets.
+health: 700
+size: 1
+hitTime: 5
+chanceDeflect: 30
+requirements: [
+  blastic/8
+  asterrite-crystal/2
+]
+category: defense
+research: asterrostructor

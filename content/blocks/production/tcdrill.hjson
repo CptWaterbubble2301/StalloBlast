@@ -1,0 +1,17 @@
+name: Wulfram Carbide Drill
+description: A compact, high-end drill. Cannot be boosted with liquid.
+type: Drill
+health: 2000
+size: 2
+tier: 15
+drillTime: 275
+rotateSpeed: 10
+requirements: [
+  tungstenitecarbide/80
+  silicon/40
+  graphite/20
+  thorium/10
+]
+category: production
+research: tungstenite-carbylator
+drawMineItem: false

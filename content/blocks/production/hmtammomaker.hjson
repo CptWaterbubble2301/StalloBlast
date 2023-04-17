@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: HMT Ammo Fabricator
+description: Produces ammunition for the HMT
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 120
+consumes: {
+  power: 3
+  items: {
+    items: [
+      stalloblast/1
+      clc/3
+      silicon/3
+      asterrite-crystal/2
+    ]
+  }
+}
+requirements: [
+  titanium/150
+  thorium/60
+  silicon/60
+  clc/40
+  stalloblast/20
+  asterrite-crystal/40
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: hmtbullet/10
+research: stalloblast-compactor

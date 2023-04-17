@@ -1,0 +1,37 @@
+type: ItemTurret
+name: Antlion
+description: This turret shoots highly accelerated sand particles. They don't do much on their own, but can do a lot in masses. "They called me insane when I suggested we weaponize a sandblaster. I never said I wasn't."
+health: 200
+size: 1
+reload: 2
+range: 170
+inaccuracy: 25
+rotatespeed: 12
+shootEffect: steam
+smokeEffect: shootSmallSmoke
+shootSound: spray
+ammoTypes: {
+  sand: {
+   trailEffect: steam
+   knockback: 2
+    speed: 15
+    damage: 1
+    frontColor: ffeb9e
+    backColor: ffeb9e
+    bulletWidth: 4
+    bulletHeight: 4
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+    lifetime: 10
+    hitEffect: steam
+    despawnEffect: steam
+	}
+}
+requirements: [
+  tungstenitecarbide/20
+  copper/30
+  lead/30
+]
+category: turret
+research: small-blaster

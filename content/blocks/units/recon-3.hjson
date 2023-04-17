@@ -1,0 +1,29 @@
+name: Volumetric Reconstructor
+description: Uses Asterrite and more carbon fiber to upgrade units to tier 4.
+type: Reconstructor
+size: 7
+constructTime: 1200
+upgrades: 
+[
+[leviathan, superleviathan],
+[armadillo, armadillo-l],
+[bomber, ffortress],
+]
+consumes: {
+    items: {
+        items: [
+            cfib/100
+            silicon/130
+						asterrite-crystal/30
+        ]
+    }
+    power: 3
+}
+category: units
+research: recon-2
+requirements: [
+  cfib/80
+  asterrite-crystal/40
+  silicon/100
+  titanium/200
+]

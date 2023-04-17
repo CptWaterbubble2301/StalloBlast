@@ -1,0 +1,29 @@
+type: ForceProjector
+name: Wulfric Enforcer
+description: A supercharged forcefield projector.
+health: 15000
+size: 5
+radius: 200
+breakage: 1000
+cooldownNormal: 3
+cooldownLiquid: 5
+useTime: 300
+phaseRadiusBoost: 100
+shieldHealth: 7500
+consumes: {
+  power: 8
+  items: {
+    items: [
+      phase-fabric/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  tungstenitecarbide/80
+  titanium/240
+  asterrite-crystal/60
+  silicon/60
+]
+category: effect
+research: wulfric-reconstructor

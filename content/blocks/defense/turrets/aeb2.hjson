@@ -1,0 +1,48 @@
+type: PowerTurret
+name: Astron Charge Expulsor
+description: A large cannon, the result of someone re-assembling the AEC with more parts so many times that it turned into a new weapon. Launches a single, large, lingering energy projectile that cuts through enemy masses.
+health: 1200
+size: 3
+reload: 75
+chargeTime: 30
+range: 350
+inaccuracy: 0
+shots: 10
+rotatespeed: 12
+firingMoveFract: 0.1
+consumes:
+{
+  power: 20
+  coolant: { amount: 0.2 }
+}
+hasLiquids: true
+shootSound: pew
+chargeBeginEffect: lancerLaserShoot
+chargeEffect: lancerLaserCharge
+recoil: 4
+cooldown: 0.01
+heatColor: e200ff
+shootType: {
+	frontColor: e200ff
+	backColor: f290ff
+	damage: 200
+	height: 18
+	width: 24
+	lifetime: 210
+	speed: 2
+	drag: 0
+	homingRange: 200
+	homingPower: 600
+	pierce: true
+	bulletShrink: 0
+	knockback: 0
+	splashDamage: 300
+	splashDamageRadius: 20	
+}
+requirements: [
+  thorium/20
+  clc/15
+  astron/10
+]
+category: turret
+research: aeb

@@ -5,12 +5,5 @@ viscosity: 0.1
 flammability: 0
 explosiveness: 0
 color: e1e2e3
-heatCapacity: 1
-effect: {
-name: Dissolving
-armorMultiplier: 0.5
-speedMultiplier: 0.5
-color: e1e2e3
-damage: 1
-effect: steam
-}
+heatCapacity: 4
+effect: Dissolving

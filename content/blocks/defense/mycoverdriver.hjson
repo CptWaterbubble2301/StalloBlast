@@ -1,0 +1,29 @@
+type: OverdriveProjector
+name: Mycrollic Overdriver
+description: A stronger overdrive projector.
+health: 800
+size: 2
+color: ff3800
+range: 100
+speedBoost: 1.7
+speedBoostPhase: 2
+useTime: 400
+phaseRangeBoost: 80
+consumes: {
+  power: 8
+  items: {
+    items: [
+      phase-fabric/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  mycrocluster/15
+  titanium/40
+  clc/40
+  silicon/30
+  asterrite-crystal/10
+]
+category: effect
+research: mycshield

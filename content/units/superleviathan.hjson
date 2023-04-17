@@ -18,7 +18,7 @@ research: {
     requirements:
     [
         {item: astron, amount: 800},
-        {item: archaium-crystal, amount: 400},
+        {item: asterrite-crystal, amount: 400},
         {item: silicon, amount: 2000}
     ]
 }

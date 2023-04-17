@@ -1,0 +1,28 @@
+name: Vectored Reconstructor
+description: Uses Carbon fiber to upgrade units to tier 3.
+type: Reconstructor
+size: 5
+constructTime: 1200
+upgrades: 
+[
+[AstronShard, leviathan],
+[leggy, armadillo],
+[swarmer, bomber],
+]
+consumes: {
+    items: {
+        items: [
+            cfib/50
+            silicon/40
+        ]
+    }
+    power: 3
+}
+category: units
+research: recon-1
+requirements:[
+  cfib/10
+  crimsonite/50
+  silicon/100
+  titanium/140
+]

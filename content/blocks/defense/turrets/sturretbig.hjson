@@ -1,0 +1,43 @@
+type: ItemTurret
+name: Pneumatic Annihilator
+description: The largest gun in the scrap arsenal. Fires heavy pneumatic shells.
+health: 800
+size: 3
+consumes: 
+{
+	coolant: { amount: 0.2 }
+}
+hasLiquids: true
+reload:150
+range: 300
+inaccuracy: 0
+rotatespeed: 12
+shootSound: pew
+ammoPerShot: 5
+heatColor: ff0000
+shootEffect: steam
+smokeEffect: shootSmallSmoke
+ammoTypes: {
+sbullet:
+	{
+    type: basicBulletType
+	lifetime: 20
+	speed: 30
+	height: 40
+	width: 20
+	damage: 50
+	splashDamageRadius: 20
+	splashDamage: 150
+	inaccuracy: 0
+	knockback: 20
+	hitEffect: flakExplosionBig
+	}
+
+}
+requirements: [
+  RefinedScrap/80
+  copper/100
+  lead/60
+]
+category: turret
+research: sturret

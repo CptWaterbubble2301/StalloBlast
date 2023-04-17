@@ -1,0 +1,8 @@
+{
+	name: Phase-Overclocked
+	armorMultiplier: 0.1
+	speedMultiplier: 3
+	color: ff0000
+	damage: 0.05
+	effect: lancerLaserCharge
+}

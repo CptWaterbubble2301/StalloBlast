@@ -1,0 +1,13 @@
+type: Wall
+name: Stalloflect Wall
+description: A wall made of Tungstenite Carbide, with Stalloblast panelling. Can reflect a lot of very tough bullets.
+health: 1500
+size: 1
+hitTime: 3
+chanceDeflect: 80
+requirements: [
+  tungstenitecarbide/8
+  stalloblast/2
+]
+category: defense
+research: wulfric-tungstenite-carbylator

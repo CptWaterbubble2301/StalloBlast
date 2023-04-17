@@ -1,0 +1,61 @@
+type: ItemTurret
+name: Pneumatic Cannon
+description: A turret capable of shooting bursts of metal, relatively cheap, can also be loaded with pneumatic shells.
+health: 400
+size: 2
+consumes: 
+{
+	coolant: { amount: 0.2 }
+}
+hasLiquids: true
+reload: 120
+range: 120
+rotatespeed: 12
+heatColor: ff0000
+burstSpacing: 2
+shots: 10
+inaccuracy: 2
+shootEffect: steam
+smokeEffect: shootSmallSmoke
+ammoTypes:{
+sbullet:
+	{
+    type: basicBulletType
+	lifetime: 8
+	speed: 15
+	heigth: 20
+	width: 12
+	damage: 25
+	inaccuracy: 0
+	reloadMultiplier: 1.5
+	}
+RefinedScrap:
+	{
+    type: basicBulletType
+	inaccuracy: 15
+	lifetime: 14
+	speed: 12
+	damage: 15
+	heigth: 15
+	width: 9
+	splashDamageRadius: 5
+	splashDamage: 5
+	}
+copper:
+	{
+    type: basicBulletType
+	inaccuracy: 5
+	lifetime: 13
+	speed: 10
+	heigth: 15
+	width: 9
+	damage: 10
+	}
+}
+requirements: [
+  lead/20
+  copper/40
+  RefinedScrap/25
+]
+category: turret
+research: sturretsmall

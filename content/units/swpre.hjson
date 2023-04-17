@@ -13,7 +13,7 @@ commandLimit: 16
 circleTarget: true
 hover: false
 research: {
-    parent: armadillofactory
+    parent: exp-ass-fact
     requirements:
     [
         {item: RefinedScrap, amount: 200},

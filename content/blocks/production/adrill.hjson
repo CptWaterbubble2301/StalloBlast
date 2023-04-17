@@ -1,0 +1,23 @@
+name: Asterric Blast Drill
+description: A high-end drill. Requires water.
+type: Drill
+size: 3
+tier: 10
+drillTime: 200
+rotateSpeed: 10
+consumes: {
+  power: 3
+  liquid: {
+    liquid: water
+    amount: 0.1
+  }
+}
+requirements: [
+  asterrite-crystal/20
+  clc/60
+  silicon/40
+  graphite/20
+]
+category: production
+research: asterrostructor
+drawMineItem: false

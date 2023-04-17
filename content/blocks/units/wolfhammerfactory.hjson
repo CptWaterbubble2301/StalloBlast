@@ -1,0 +1,42 @@
+name: Wolfhammer Factory
+description: Makes flying elite Wolfhammer units, but they require vast amounts of power, supplies, and time.
+type: UnitFactory
+size: 3
+health: 5000
+maxSpawn: 2
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawDefault
+outRegion: side2
+}
+{
+type: DrawBlock
+outRegion: side2
+}
+]
+}
+
+category: units
+research: tcammomaker
+requirements: [
+  titanium/80
+  tungstenitecarbide/40
+  silicon/40
+  plastanium/20
+]
+consumes: {
+  power: 100
+}
+plans: [
+	{
+		unit: wolfhammer
+		time: 7200
+		requirements: [
+				cfib/1000
+				tungstenitecarbide/1000
+				silicon/600
+		]
+	}
+]

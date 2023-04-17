@@ -1,6 +1,6 @@
 type: flying
 name: Diverter
-description: Incredibly weak on their own. Made to distract defenses from other units.
+description: Incredibly weak and expensive, nearly useless except the substantial initial cost means that it can use standard, less-expensive upgrades to great effect.
 speed: 7
 flying: true
 health: 30

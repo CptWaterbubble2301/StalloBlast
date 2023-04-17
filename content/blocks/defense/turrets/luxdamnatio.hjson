@@ -1,0 +1,54 @@
+type: PowerTurret
+name: Lux Damnatio
+description: The TRUE ultimate weapon.
+health: 9000
+size: 8
+reload: 10
+chargeTime: 5
+burstSpacing: 0
+range: 1500
+inaccuracy: 0.5
+rotatespeed: 12
+firingMoveFract: 1
+shootDuration: 500
+consumes:
+{
+  power: 400
+  coolant: { 
+	  amount: 12
+	}
+}
+coolantMultiplier: 0.1
+shootEffect: none
+smokeEffect: none
+shootSound: laserblast
+chargeBeginEffect: lancerLaserShoot
+chargeEffect: lancerLaserCharge
+recoil: 6
+cooldown: 0.002
+heatColor: ffffff
+shootType: {
+	type: laserBulletType
+	continuous: true
+	colors: ["2e008f","6a00b4","ae48d9","f290ff"]
+	damage: 1200
+	length: 1700
+	hitSound: explosionBig
+	Width: 30
+	lifetime: 50
+	splashDamage: 500
+	splashDamageRadius: 20
+	sideAngle: 180
+	sideLength: 30
+	sideWidth: 1
+}
+requirements: [
+  stalloblast/180
+  blastic/400
+  clc/240
+  asterrite-crystal/80
+  blastic/160
+  astron/300
+]
+category: turret
+research: missileblaster

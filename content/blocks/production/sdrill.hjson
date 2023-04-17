@@ -1,0 +1,27 @@
+name: Scrap Drill
+description: A cheap drill made of assorted scrap. Faster than a mechanical drill, and lightly armoured. Boosted by compressed air.
+type: Drill
+health: 200
+size: 2
+tier: 2
+drillTime: 550
+rotateSpeed: 2
+requirements: [
+  RefinedScrap/10
+  copper/4
+  lead/4
+]
+hasliquids: true
+liquidCapacity: 25
+consumes: {
+  liquid: {
+    liquid: air
+    amount: 0.03
+    booster: true
+    optional: true
+    }
+	}
+ 
+category: production
+research: ssorter
+drawMineItem: false

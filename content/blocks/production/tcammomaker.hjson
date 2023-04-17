@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Wulfram Carbide Ammo Fabricator
+description: Produces AP wulfram carbide ammo.
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 120
+consumes: {
+  power: 3
+  items: {
+    items: [
+      tungstenitecarbide/4
+      blast-compound/1
+    ]
+  }
+}
+requirements: [
+  titanium/150
+  thorium/60
+  silicon/60
+  tungstenitecarbide/150
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: tcbullet/5
+research: wulfric-tungstenite-carbylator

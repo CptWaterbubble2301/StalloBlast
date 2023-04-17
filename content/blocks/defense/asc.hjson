@@ -1,0 +1,29 @@
+type: OverdriveProjector
+name: Astron Spatial Compressor
+description: A supercharged overdrive projector. Very small radius, but insanely high acceleration.
+health: 500
+size: 2
+color:"e200ff"
+phase:"e200ff"
+range: 25
+speedBoost: 4
+speedBoostPhase: 4
+useTime: 300
+phaseRangeBoost: 5
+consumes: {
+  power: 10
+  items: {
+    items: [
+      phase-fabric/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  astron/40
+  titanium/120
+  asterrite-crystal/40
+  silicon/40
+]
+category: effect
+research: astron-nucleotide-extractor

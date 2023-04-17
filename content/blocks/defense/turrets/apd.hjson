@@ -1,0 +1,27 @@
+type: PointDefenseTurret
+name: Asterric Pinpointer
+description: A small point defense gun, more effective than the standard.
+hasPower: true
+consumes:
+{
+power: 3
+}
+bulletDamage: 25
+health: 400
+size: 2
+reload: 5
+retargetTime: 5
+shootCone: 1
+range: 200
+rotatespeed: 15
+heatColor: f4f0dc
+shootSound: sap
+color: ffff66
+requirements: [
+  clc/20
+  copper/30
+  titanium/30
+  asterrite-crystal/5
+]
+category: turret
+research: asterrostructor

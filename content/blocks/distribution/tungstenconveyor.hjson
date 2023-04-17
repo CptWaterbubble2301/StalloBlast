@@ -1,0 +1,13 @@
+type: Conveyor
+name: Wulfric conveyor
+description: A very fast, relatively hardy conveyor.
+health: 160
+requirements: [
+  titanium/1
+  copper/3
+  lead/3
+  tungstenitecarbide/1
+]
+category: distribution
+speed: 0.2
+research: wulfric-tungstenite-carbylator

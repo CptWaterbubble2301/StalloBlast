@@ -1,0 +1,46 @@
+type: AttributeCrafter
+name: Astron Dephaser
+description: Reforms stalloblast and astryl into astrollic wafers, for processing into astron.
+liquidCapacity: 100
+size: 3
+flameColor: c920c9
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 40
+consumes: {
+  power: 15
+  items: {
+    items: [
+      stalloblast/1
+    ]
+  }
+  liquid: {
+    liquid: astryl
+    amount: 1
+  }
+}
+requirements: [
+  titanium/240
+  thorium/60
+  silicon/120
+  clc/150
+  astron/25
+]
+category: crafting
+research: astrollic-restabilizer
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: astrollic-wafer/2
+drawer: {
+type: DrawMulti
+drawers: [DrawDefault, 
+{
+type: DrawFlame
+flameColor: 000000ff
+flameRadiusScl: 0
+flameRadius: -1
+flameRadiusIn: -0.5
+}
+]
+}

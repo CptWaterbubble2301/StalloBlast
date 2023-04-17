@@ -1,0 +1,64 @@
+type: AttributeCrafter
+name: Mycrocluster Forge
+description: A heavily modified asterric rephaser, augmented to produce Mycrollite clusters from cryofluid, phase fabric and metaglass.
+liquidCapacity: 100
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      metaglass/5
+      phase-fabric/1
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 1
+  }
+}
+requirements: [
+  lead/200
+  copper/200
+  thorium/140
+  silicon/200
+  clc/100
+  phase-fabric/50
+  stalloblast/20
+]
+category: crafting
+research: asterric-rephaser
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: mycrocluster/2
+
+drawer: {
+type: DrawMulti
+drawers: [DrawDefault, 
+{
+type: DrawFlame
+flameColor: 76e7ff
+flameRadiusScl: 0
+flameRadiusMag: 1
+flameRadius: 5.5
+flameRadiusIn: 2
+}
+{
+type: DrawCrucibleFlame
+flameColor: 76e7ff
+midColor: cef6ff
+particleRad: 11
+alpha: 1
+}
+{
+type: DrawArcSmelt
+flameColor:cef6ff
+midColor:cef6ff
+circleSpace: 7
+}
+]
+}
+

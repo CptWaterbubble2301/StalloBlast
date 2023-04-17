@@ -1,0 +1,48 @@
+type: GenericCrafter
+name: Carbon Weaver
+description: A machine to weave graphite and Blastic into reinforced carbon fiber.
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 40
+consumes: {
+  power: 1.2
+  items: {
+    items: [
+      graphite/4
+      blastic/1
+    ]
+  }
+}
+requirements: [
+  clc/50
+  titanium/60
+  silicon/60
+  graphite/40
+]
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: cfib/4
+research: blastic-compressor
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawPistons
+suffix: -pst
+sinMag: 4
+sinOffset: -0.5
+sinScl: 5
+},
+DrawDefault, 
+{
+type: DrawRegion
+suffix: -top
+}
+]
+}

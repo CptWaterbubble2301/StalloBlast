@@ -1,0 +1,8 @@
+{
+	name: Atomizing
+	armorMultiplier: 0.1
+	speedMultiplier: 1.1
+	color: ff0000
+	damage: 5
+	effect: steam
+}

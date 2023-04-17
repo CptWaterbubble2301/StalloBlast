@@ -1,0 +1,18 @@
+name: CLC Drill
+description: A carbon-free pneumatic-tier drill. Cannot be boosted.
+type: Drill
+health: 400
+size: 2
+tier: 3
+drillTime: 400
+rotateSpeed: 2
+liquidCapacity: 0
+hasLiquids: false
+requirements: [
+  clc/15
+  copper/20
+  lead/20
+]
+category: production
+research: clc-press
+drawMineItem: false

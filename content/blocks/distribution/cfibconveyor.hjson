@@ -1,0 +1,15 @@
+type: Conveyor
+name: Carbon Fiber Conveyor
+description: A fast, relatively hardy conveyor ~20/sec
+health: 130
+requirements: [
+  titanium/1
+  cfib/1
+  clc/1
+]
+arrowSpacing: 10
+arrowOffset: 5
+arrowPeriod: 3
+category: distribution
+speed: 0.15
+research: carb-weave

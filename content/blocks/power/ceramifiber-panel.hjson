@@ -1,0 +1,15 @@
+type: SolarGenerator
+name: Ceramifiber Solar Panel
+description: Uses rigid carbon fiber and specialized ceramics to provide advanced solar power conversion.
+size: 2
+hasPower: true
+powerProduction: .85
+plasmas: 1
+plasma1: fffabc
+requirements: [
+  cfib/40
+  clc/40
+  silicon/40
+]
+category: power
+research: carb-weave

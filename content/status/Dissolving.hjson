@@ -1,0 +1,10 @@
+
+{
+name: Dissolving
+armorMultiplier: 0.5
+speedMultiplier: 0.5
+color: e1e2e3
+damage: 1
+effect: steam
+}
+

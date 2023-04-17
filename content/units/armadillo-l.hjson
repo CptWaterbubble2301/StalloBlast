@@ -24,7 +24,7 @@ research: {
     requirements:
     [
         {item: clc, amount: 1000},
-        {item: archaium-crystal, amount: 300},
+        {item: asterrite-crystal, amount: 300},
         {item: silicon, amount: 1300}
     ]
 }

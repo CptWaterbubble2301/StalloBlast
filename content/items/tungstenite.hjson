@@ -1,0 +1,5 @@
+type: resource
+name: Wulframite
+description: A synthetic material similar to tungsten.
+hardness: 6
+color: 3c3935

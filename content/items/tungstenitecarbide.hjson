@@ -1,0 +1,6 @@
+type: material
+name: Wulfram Carbide
+description: A very hard metal carbide.
+hardness: 4
+cost: 4
+color: d86d19

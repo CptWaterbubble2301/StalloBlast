@@ -1,0 +1,35 @@
+type: ItemTurret
+name: Avalon RT
+description: Shoots highly accelerated tungstenite carbide shells
+health: 800
+size: 2
+consumes: 
+{
+	coolant: { amount: 0.2 }
+}
+hasLiquids: true
+reload: 12
+range: 300
+inaccuracy: 2
+rotatespeed: 12
+heatColor: ff9f00
+cooldown: 0.06
+ammoTypes:
+{
+tcbullet:
+	{
+	frontColor: d86d19
+	backColor: 3c3935
+	speed: 25
+	damage: 120
+	lifetime: 60
+	ammoMultiplier: 25
+	pierce: true
+	}
+}
+requirements: [
+  tungstenitecarbide/70
+  plastanium/40
+]
+category: turret
+research: tcammomaker

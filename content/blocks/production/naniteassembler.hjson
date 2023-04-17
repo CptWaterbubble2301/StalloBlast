@@ -1,0 +1,41 @@
+type: AttributeCrafter
+name: "Nanite Assembler"
+description: "Assembles Nanites from mycrollite for further use in production"
+liquidCapacity: 200
+outputLiquid: {
+  liquid: nanites
+  amount: 20
+}
+size: 5
+hasPower: true
+hasLiquids: true
+craftTime: 10
+consumes: {
+  power: 0.6
+  item: mycrocluster
+}
+requirements: [
+  mycrocluster/20
+  clc/200
+  silicon/20
+  metaglass/40
+  asterrite-crystal/10
+]
+category: crafting
+research: mycforge
+idleSound: respawning
+idleSoundVolume: 0.5
+drawer: {
+type: DrawMulti
+drawers: [DrawDefault, 
+{
+type: DrawFlame
+flameColor: ffffffff
+flameRadiusScl: 0
+flameRadius: -1
+flameRadiusIn: -0.5
+}
+]
+}
+
+

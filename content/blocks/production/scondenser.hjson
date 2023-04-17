@@ -1,0 +1,15 @@
+name: Scrap Condenser
+description: A vapor condenser made from scrap parts that condenses water over time. No power, but very slow.
+type: SolidPump
+size: 2
+baseEfficiency: 0.2
+rotateSpeed: 10
+hasPower: false
+requirements: [
+  RefinedScrap/40
+  copper/20
+  lead/15
+]
+result: water
+category: production
+research: ssorter

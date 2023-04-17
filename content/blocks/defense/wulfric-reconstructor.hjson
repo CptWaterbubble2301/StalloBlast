@@ -1,0 +1,28 @@
+type: MendProjector
+name: Wulfric Reconstructor
+description: A supercharged mend projector. Restores health even faster than a normal mend projector.
+health: 5000
+size: 3
+color: 1bff00
+range: 200
+healPercent: 20
+phaseBoost: 20
+useTime: 300
+phaseRangeBoost: 80
+consumes: {
+  power: 8
+  items: {
+    items: [
+      phase-fabric/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  tungstenitecarbide/40
+  titanium/120
+  asterrite-crystal/40
+  silicon/40
+]
+category: effect
+research: wulfric-power-node

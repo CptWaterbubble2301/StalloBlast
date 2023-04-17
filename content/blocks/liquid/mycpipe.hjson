@@ -1,0 +1,14 @@
+type: Conduit
+name: Mycrollite Conduit
+description: A fast conduit. Will not leak if the end is open.
+health: 200
+requirements: [
+  metaglass/1
+  clc/1
+  mycrocluster/2
+]
+speed: 0.2
+research: mycconveyor
+liquidCapacity: 32
+category: liquid
+leaks: false

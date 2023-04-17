@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Wulfric Replicator
+description: An improved machine to extract wulfram.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+itemCapacity: 20
+craftTime: 100
+consumes: {
+  power: 1
+  items: {
+    items: [
+      RefinedScrap/10
+    ]
+  }
+  liquid: {
+    liquid: astryl
+    amount: 2
+  }
+}
+requirements: [
+  tungstenitecarbide/40
+  thorium/100
+  silicon/100
+  cfib/50
+  asterrite-crystal/20
+  stalloblast/2
+]
+category: crafting
+research: tung-replicator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: tungstenite/4

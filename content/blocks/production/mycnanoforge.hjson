@@ -1,0 +1,70 @@
+type: AttributeCrafter
+name: Mycrocluster Nanoforge
+description: The first nanoforge, that uses nanites to  more efficiently manufacture mycrollite clusters.
+liquidCapacity: 100
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 90
+consumes: {
+  power: 2.5
+  items: {
+    items: [
+      metaglass/10
+      phase-fabric/1
+    ]
+  }
+  liquid: {
+    liquid: nanites
+    amount: 1
+  }
+}
+requirements: [
+  clc/400
+  titanium/100
+  thorium/50
+  silicon/250
+  phase-fabric/50
+  mycrocluster/20
+]
+category: crafting
+research: naniteassembler
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: mycrocluster/4
+
+drawer: {
+type: DrawMulti
+drawers: [DrawDefault, 
+{
+type: DrawFlame
+flameColor: 76e7ff
+flameRadiusScl: 0
+flameRadiusMag: 1
+flameRadius: 3.5
+flameRadiusIn: 1.2
+}
+{
+type: DrawCrucibleFlame
+flameColor: 76e7ff
+midColor: cef6ff
+particleSize: 3
+particleLife: 50
+alpha: 1
+flameRadius: 0.5
+particleRad: 8
+particles: 50
+}
+{
+type: DrawArcSmelt
+flameColor:76e7ff
+midColor:76e7ff
+particleStroke: 1
+circleSpace: 8
+flameRadius: 0.2
+particleRad: 8
+}
+]
+}
+itemCapacity: 30

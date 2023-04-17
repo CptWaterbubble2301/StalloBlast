@@ -1,0 +1,15 @@
+type: ItemBridge
+name: Carbon Fiber Bridge Conveyor
+description: A slightly longer-range bridge conveyor. Much higher throughput.
+health: 160
+hasPower: false
+requirements: [
+  cfib/3
+  clc/3
+]
+category: distribution
+research: carb-weave
+range: 7
+bridgeWidth: 8
+
+

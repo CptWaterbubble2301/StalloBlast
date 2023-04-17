@@ -1,0 +1,48 @@
+type: GenericCrafter
+name: "Mycrosilicate Refiner"
+description: "A more efficient and compact silicon smelter that does not require coal."
+liquidCapacity: 200
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 20
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      sand/4
+    ]
+  }
+  liquid: {
+    liquid: nanites
+    amount: 0.25
+  }
+}
+
+requirements: [
+  mycrocluster/20
+  clc/30
+  graphite/20
+  silicon/20
+  metaglass/5
+]
+outputItem: silicon/2
+category: crafting
+research: mycex
+idleSound: respawning
+idleSoundVolume: 0.5
+drawer: {
+type: DrawMulti
+drawers: [DrawDefault, 
+{
+type: DrawFlame
+flameColor: cef6ff
+flameRadiusScl: 2
+flameRadiusMag: -0.7
+flameRadius: 4
+flameRadiusIn: 1.5
+}
+]
+}
+
+

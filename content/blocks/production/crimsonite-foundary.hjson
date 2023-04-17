@@ -1,0 +1,48 @@
+type: AttributeCrafter
+name: Crimsonite Foundary
+description: Combines titanium and spores to produce Crimsonite more easily, and faster, but at a larger profile.
+size: 4
+hasPower: true
+hasItems: true
+craftTime: 30
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      titanium/2
+      spore-pod/5
+    ]
+  }
+}
+requirements: [
+  titanium/80
+  thorium/60
+  silicon/100
+  crimsonite/40
+  blastic/20
+]
+drawer: {
+type: DrawMulti
+drawers: [DrawDefault, 
+{
+type: DrawFlame
+flameColor: ff000050
+flameRadiusScl: 0
+flameRadius: 1.5
+flameRadiusIn: 1
+}
+{
+type: DrawCrucibleFlame
+flameColor: ff0000ff
+midColor: ff0000ff
+particleRad: 5
+alpha: 1
+}
+]
+}
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: crimsonite/3
+research: crimsonite-forge
+

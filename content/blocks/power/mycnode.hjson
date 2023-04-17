@@ -1,0 +1,16 @@
+type: PowerNode
+name: Mycron Power Node
+description: A very compact long-range power node.
+health: 300
+size: 1
+laserRange: 12
+maxNodes: 50
+laserColor1: 00d2ff
+laserColor2: 0000ee
+requirements: [
+  mycrocluster/10
+  silicon/5
+  asterrite-crystal/1
+]
+category: power
+research: mycex

@@ -1,0 +1,71 @@
+type: PowerTurret
+name: Kugelblitz Cannon
+description: An experimental cannon that fires a concentrated ball of lightning.
+health: 1200
+size: 3
+reload: 160
+chargeTime: 80
+range: 600
+inaccuracy: 0
+shots: 10
+rotatespeed: 12
+firingMoveFract: 0.1
+consumes:
+{
+  power: 40
+  coolant: { amount: 0.2 }
+}
+hasLiquids: true
+shootSound: pew
+shootEffect: sparkShoot
+chargeEffect: sparkShoot
+chargeBeginEffect: bigShockwave
+chargeSound: lasercharge
+shootSound: laserblast
+recoil: 4
+cooldown: 0.01
+heatColor: e200ff
+targetAir: false
+shootType: {
+	type: ArtilleryBulletType
+	frontColor: ffffff
+	backColor: ffffdd
+	damage: 100
+	height: 18
+	width: 24
+	lifetime: 100
+	speed: 10
+	drag: 0.0002
+	bulletShrink: 0
+	knockback: 10
+	splashDamageRadius: 300
+	splashDamage: 50
+	fragBullets:64
+	fragBullet:
+	{
+	type: lightningBulletType
+	damage: 10
+	collidesAir: true
+	lightningLength: 40
+	pierce: true
+	splashDamageRadius: 100
+	splashDamage: 50
+	fragBullets:4
+	fragBullet:
+	{
+	type: lightningBulletType
+	damage: 10
+	collidesAir: true
+	lightningLength: 20
+	pierce: true
+	}}
+}
+requirements: [
+  thorium/60
+  clc/150
+  mycrocluster/30
+  asterrite-crystal/60
+  titanium/200
+]
+category: turret
+research: mycforge

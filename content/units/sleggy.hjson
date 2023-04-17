@@ -21,7 +21,7 @@ hovering: false
 mechStepParticles: false
 commandLimit: 16
 research: {
-    parent: armadillofactory
+    parent: exp-ass-fact
     requirements:
     [
         {item: RefinedScrap, amount: 200},

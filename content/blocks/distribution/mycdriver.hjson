@@ -1,0 +1,26 @@
+type: MassDriver
+name: "Mycrollic Mass Accelerator"
+description: "A compacted mass driver. Same range, more speed, less space."
+size: 2
+hasPower: true
+consumes: {
+  power: 1
+}
+reload: 50
+itemCapacity: 60
+minDistribute: 5
+knockback: 1
+shake: 1
+range: 450
+requirements: [
+  mycrocluster/40
+  clc/40
+  silicon/30
+  metaglass/20
+  asterrite-crystal/10
+]
+research: mychighconveyor
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

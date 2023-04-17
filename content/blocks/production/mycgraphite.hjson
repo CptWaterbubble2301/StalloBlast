@@ -1,0 +1,47 @@
+type: GenericCrafter
+name: "Mycrocarbon Compressor"
+description: "A more efficient and compact graphite press"
+liquidCapacity: 200
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 30
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      coal/4
+    ]
+  }
+  liquid: {
+    liquid: nanites
+    amount: 0.25
+  }
+}
+
+requirements: [
+  mycrocluster/20
+  clc/30
+  graphite/20
+  silicon/20
+  metaglass/5
+]
+outputItem: graphite/3
+category: crafting
+research: mycex
+idleSound: respawning
+idleSoundVolume: 0.5
+craftEffect: pulverizeMedium
+
+drawer: {
+type: DrawMulti
+drawers: [DrawDefault,  
+{
+type: DrawFlame
+flameColor: ffffffff
+flameRadiusScl: 0
+flameRadius: -1
+flameRadiusIn: -0.5
+}
+]
+}
